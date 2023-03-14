@@ -1,4 +1,5 @@
-﻿using Lektion9Mars14DesignPatterns1.Flyweight;
+﻿using Lektion9Mars14DesignPatterns1.Command;
+using Lektion9Mars14DesignPatterns1.Flyweight;
 
 namespace Lektion9Mars14DesignPatterns1
 {
@@ -7,7 +8,9 @@ namespace Lektion9Mars14DesignPatterns1
         public static void Main(string[] args)
         {
             FlyweightDemonstration flyweightDemonstration = new FlyweightDemonstration();
-            flyweightDemonstration.Run();
+            //flyweightDemonstration.Run();
+            CommandDemonstration commandDemonstration = new CommandDemonstration();
+            commandDemonstration.Run();
         }
     }
 }
