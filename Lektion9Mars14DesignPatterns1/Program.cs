@@ -1,10 +1,13 @@
-﻿namespace Lektion9Mars14DesignPatterns1
+﻿using Lektion9Mars14DesignPatterns1.Flyweight;
+
+namespace Lektion9Mars14DesignPatterns1
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            FlyweightDemonstration flyweightDemonstration = new FlyweightDemonstration();
+            flyweightDemonstration.Run();
         }
     }
 }

@@ -16,6 +16,9 @@ namespace Lektion9Mars14DesignPatterns1.Builder
         Wheel frontWheel;
         Wheel backWheel;
 
+        // Builder Design Pattern allows the constructor of the object being made to
+        // remain simple, and can contain logic that concerns the creation of that
+        // kind of object.
         public BikeBuilder()
         {
             name = "";
@@ -27,6 +30,9 @@ namespace Lektion9Mars14DesignPatterns1.Builder
             backWheel = new Wheel();
         }
 
+        // The constructor first sets up default values, then there's a bunch
+        // of setters for the various values. They give back the builder itself,
+        // allowing us to chain the setters.
         public BikeBuilder Name(string name)
         {
             this.name = name;
@@ -63,6 +69,9 @@ namespace Lektion9Mars14DesignPatterns1.Builder
             return this;
         }
 
+        // Finally, there's only one constructor call that builds the object itself,
+        // located inside a Build function that takes all the values, default or not,
+        // and calls the constructor of the object to be built.
         public Bike Build()
         {
             return new Bike(name, model, countryOfOrigin, yearMade, numberOfGears, frontWheel, backWheel);

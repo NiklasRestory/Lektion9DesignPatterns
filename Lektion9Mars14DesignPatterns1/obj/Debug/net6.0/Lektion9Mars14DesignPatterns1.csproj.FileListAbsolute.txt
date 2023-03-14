@@ -1,0 +1,15 @@
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\bin\Debug\net6.0\Lektion9Mars14DesignPatterns1.exe
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\bin\Debug\net6.0\Lektion9Mars14DesignPatterns1.deps.json
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\bin\Debug\net6.0\Lektion9Mars14DesignPatterns1.runtimeconfig.json
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\bin\Debug\net6.0\Lektion9Mars14DesignPatterns1.dll
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\bin\Debug\net6.0\Lektion9Mars14DesignPatterns1.pdb
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.csproj.AssemblyReference.cache
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.AssemblyInfoInputs.cache
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.AssemblyInfo.cs
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.csproj.CoreCompileInputs.cache
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.dll
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\refint\Lektion9Mars14DesignPatterns1.dll
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.pdb
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\Lektion9Mars14DesignPatterns1.genruntimeconfig.cache
+C:\Users\nikla\source\repos\Lektion9Mars14DesignPatterns1\Lektion9Mars14DesignPatterns1\obj\Debug\net6.0\ref\Lektion9Mars14DesignPatterns1.dll
