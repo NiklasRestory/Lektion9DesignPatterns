@@ -4,6 +4,7 @@ using Lektion9Mars14DesignPatterns1.Composite;
 using Lektion9Mars14DesignPatterns1.Decorator;
 using Lektion9Mars14DesignPatterns1.FactoryMethod;
 using Lektion9Mars14DesignPatterns1.Flyweight;
+using Lektion9Mars14DesignPatterns1.Iterator;
 using Lektion9Mars14DesignPatterns1.Proxy;
 using Lektion9Mars14DesignPatterns1.Singleton;
 using Lektion9Mars14DesignPatterns1.State;
@@ -34,7 +35,9 @@ namespace Lektion9Mars14DesignPatterns1
             CompositeDemonstration compositeDemonstration = new CompositeDemonstration();
             //compositeDemonstration.Run();
             FactoryMethodDemonstration factoryMethodDemonstration = new FactoryMethodDemonstration();
-            factoryMethodDemonstration.Run();
+            //factoryMethodDemonstration.Run();
+            IteratorDemonstration iteratorDemonstration = new IteratorDemonstration();
+            iteratorDemonstration.Run();
         }
     }
 }
