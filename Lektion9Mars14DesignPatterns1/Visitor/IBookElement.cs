@@ -8,6 +8,9 @@ namespace Lektion9Mars14DesignPatterns1.Visitor
 {
     public interface IBookElement
     {
+        // The visitor Design Pattern is comprised of elements and visitors.
+        // The elements accept visitors, allowing them to do their own logic
+        // upon these classes.
         void Accept(IVisitor visitor);
     }
 }

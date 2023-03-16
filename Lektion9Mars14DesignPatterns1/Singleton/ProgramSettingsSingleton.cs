@@ -22,6 +22,12 @@ namespace Lektion9Mars14DesignPatterns1.Singleton
         public static ProgramSettingsSingleton Instance { 
             get { return instance; } 
         }
+        // The singleton design pattern is designed to minimize the amount of global
+        // values we have by putting them in the same single object, that we then make
+        // available everywhere. It has a private constructor, making creation of the object
+        // only possible in the class itself. Then it's created only once, with a static getter
+        // for retrieving the object anywhere. However, it is worth noting many don't
+        // like the Singleton pattern and see it as something to avoid. Not extendable.
         private ProgramSettingsSingleton(int framesPerSecond, bool autosave, int graphicSettings)
         {
             FramesPerSecond = framesPerSecond;

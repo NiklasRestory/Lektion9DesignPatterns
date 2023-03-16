@@ -8,6 +8,7 @@ namespace Lektion9Mars14DesignPatterns1.Proxy
 {
     public class BookDatabase
     {
+        // Pretend this actually connects to the database.
         public Book GetBookByTitle(string title)
         {
             return new Book(title, 100, "Fantasy", "A decent dude", "English", 299);

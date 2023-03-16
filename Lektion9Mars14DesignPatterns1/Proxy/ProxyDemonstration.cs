@@ -12,6 +12,8 @@ namespace Lektion9Mars14DesignPatterns1.Proxy
         {
             BookDatabase bookDatabase = new BookDatabase();
 
+            // We can get all the proxies in the beginning so we can look
+            // through them, but not the objects themselves.
             List<BookProxy> bookProxies = bookDatabase.GetProxies();
 
             bookProxies[0].PrintInfo();
