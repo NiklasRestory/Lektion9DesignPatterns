@@ -1,6 +1,10 @@
-﻿using Lektion9Mars14DesignPatterns1.Command;
+﻿using Lektion9Mars14DesignPatterns1.ChainOfResponsibility;
+using Lektion9Mars14DesignPatterns1.Command;
+using Lektion9Mars14DesignPatterns1.Decorator;
 using Lektion9Mars14DesignPatterns1.Flyweight;
+using Lektion9Mars14DesignPatterns1.Proxy;
 using Lektion9Mars14DesignPatterns1.State;
+using Lektion9Mars14DesignPatterns1.Visitor;
 
 namespace Lektion9Mars14DesignPatterns1
 {
@@ -13,7 +17,15 @@ namespace Lektion9Mars14DesignPatterns1
             CommandDemonstration commandDemonstration = new CommandDemonstration();
             //commandDemonstration.Run();
             StateDemonstration stateDemonstration = new StateDemonstration();
-            stateDemonstration.Run();
+            //stateDemonstration.Run();
+            ProxyDemonstration proxyDemonstration = new ProxyDemonstration();
+            //proxyDemonstration.Run();
+            DecoratorDemonstration decoratorDemonstration = new DecoratorDemonstration();
+            //decoratorDemonstration.Run();
+            ChainOfResponsibilityDemonstration chainOfResponsibilityDemonstration = new ChainOfResponsibilityDemonstration();
+            //chainOfResponsibilityDemonstration.Run();
+            VisitorDemonstration visitorDemonstration = new VisitorDemonstration();
+            visitorDemonstration.Run();
         }
     }
 }
