@@ -18,6 +18,9 @@ namespace Lektion9Mars14DesignPatterns1.Iterator
         {
             bookList.Add(book);
         }
+        // Each list we create should have a CreateIterator
+        // function that creates an iterator for iterating over
+        // that specific list.
         public IIterator<Book> CreateIterator()
         {
             return new BookIterator(bookList);

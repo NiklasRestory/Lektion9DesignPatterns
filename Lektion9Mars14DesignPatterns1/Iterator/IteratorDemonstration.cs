@@ -22,6 +22,10 @@ namespace Lektion9Mars14DesignPatterns1.Iterator
                 iterator.Current().PrintInfo();
                 iterator.Next();
             }
+            // The above is how the Iterator is usually used. A while-loop
+            // that ends when HasNext becomes false. In the middle, we use
+            // Current for whatever logic we need. Then, finally, Next to
+            // advance to the next value.
         }
     }
 }
