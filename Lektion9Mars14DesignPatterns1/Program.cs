@@ -1,10 +1,13 @@
 ﻿using Lektion9Mars14DesignPatterns1.ChainOfResponsibility;
 using Lektion9Mars14DesignPatterns1.Command;
+using Lektion9Mars14DesignPatterns1.CommandRemoteTask;
 using Lektion9Mars14DesignPatterns1.Composite;
 using Lektion9Mars14DesignPatterns1.Decorator;
 using Lektion9Mars14DesignPatterns1.FactoryMethod;
 using Lektion9Mars14DesignPatterns1.Flyweight;
 using Lektion9Mars14DesignPatterns1.Iterator;
+using Lektion9Mars14DesignPatterns1.Memento;
+using Lektion9Mars14DesignPatterns1.NullObject;
 using Lektion9Mars14DesignPatterns1.Proxy;
 using Lektion9Mars14DesignPatterns1.Singleton;
 using Lektion9Mars14DesignPatterns1.State;
@@ -37,7 +40,13 @@ namespace Lektion9Mars14DesignPatterns1
             FactoryMethodDemonstration factoryMethodDemonstration = new FactoryMethodDemonstration();
             //factoryMethodDemonstration.Run();
             IteratorDemonstration iteratorDemonstration = new IteratorDemonstration();
-            iteratorDemonstration.Run();
+            //iteratorDemonstration.Run();
+            MementoDemonstration mementoDemonstration = new MementoDemonstration();
+            //mementoDemonstration.Run();
+            RemoteDemonstration remoteDemonstration = new RemoteDemonstration();
+            //remoteDemonstration.Run();
+            NullObjectDemonstration nullObjectDemonstration = new NullObjectDemonstration();
+            nullObjectDemonstration.Run();
         }
     }
 }
